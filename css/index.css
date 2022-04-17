@@ -1,0 +1,175 @@
+body{
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: rgb(208, 245, 190);
+    margin: auto
+    
+}
+.logo{
+    float: left;
+    padding: 15px;
+
+}
+.search{
+    float: right;
+    padding: 15px;
+    margin: 50px 20px;
+}
+.clearfix{
+    clear: both;
+}
+.main-menue{
+    background-color: lightblue;
+}
+
+.main-menue > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.main-menue > ul > li{
+    display: inline-block;
+    
+}
+.main-menue > ul > li > a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+.main-menue > ul > li > a:hover{
+    background-color: olive;
+    color: white;
+}
+
+.drop-down{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+.drop-down > li > a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 15px;  
+    background-color: white; 
+}
+.drop-down > li > a:hover{
+    background-color: olive;
+    color: white;
+}
+.main-menue > ul > li:hover .drop-down{
+    display: block;
+}
+
+.banner{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    
+}
+.content-holder{
+    background-color: blanchedalmond;
+
+}
+.content{
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.content p{
+    text-align: justify;
+}
+
+.sidebar{
+    float: left;
+    padding: 25px
+}
+.sidebar h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+.sidebar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.main-footer{
+    background-color: lightgrey;
+    color: black;
+    width: 950px;
+    padding: 25px;
+    height: auto;
+}
+.box-footer{
+    width: 235px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.box-footer > ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.box-footer > ul > li> a{
+    display: block;
+    color:gray;
+    text-decoration: none;
+    font-size: small;
+}
+.box-footer > address{
+    color: gray;
+} 
+.box-footer > address > p a{
+    color: black;
+}
+
+.copy{
+    font-family: sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color: darkgrey
+}
+
+/* about us*/
+
+.content img{
+    max-width: 100%;
+}
+/* contact page*/
+.banner iframe{
+    width: 100%;
+    height: 500px;
+}
